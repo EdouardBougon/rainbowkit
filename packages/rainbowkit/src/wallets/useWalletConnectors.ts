@@ -20,6 +20,10 @@ import {
   rainbowKitConnectorWithWalletConnect,
 } from './groupedWallets';
 import { addRecentWalletId, getRecentWalletIds } from './recentWalletIds';
+import {
+  METAMASK_WALLET_ID,
+  MetaMaskConnector,
+} from './walletConnectors/metaMaskWallet/metaMaskWallet';
 
 export interface WalletConnector extends WalletInstance {
   ready?: boolean;
