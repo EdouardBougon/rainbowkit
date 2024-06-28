@@ -134,6 +134,10 @@ const sei = {
 // Testing `preference` type
 coinbaseWallet.preference = 'all';
 
+metaMaskWallet.parameters = {
+  url: 'https://www.rainbowkit.com',
+};
+
 export const config = getDefaultConfig({
   appName: 'RainbowKit Demo',
   projectId,

@@ -285,8 +285,16 @@ import { mewWallet } from '@rainbow-me/rainbowkit/wallets';
 
 #### MetaMask
 
+Ce connecteur prend en charge à la fois l’application mobile Metamask et l’extension.
+
+Un argument parameters est disponible pour ajouter des options au connecteur metamask.
+
 ```tsx
 import { metaMaskWallet } from '@rainbow-me/rainbowkit/wallets';
+
+metaMaskWallet.parameters = {
+  url: "https://my.app.com
+};
 ```
 
 #### Portefeuille OKX
