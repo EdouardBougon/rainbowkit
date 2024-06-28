@@ -8,6 +8,7 @@ import { connectorsForWallets } from '../wallets/connectorsForWallets';
 import {
   coinbaseWallet,
   metaMaskWallet,
+  metaMaskWalletOld,
   rainbowWallet,
   safeWallet,
   walletConnectWallet,
@@ -82,6 +83,7 @@ export const getDefaultConfig = <
           rainbowWallet,
           coinbaseWallet,
           metaMaskWallet,
+          metaMaskWalletOld,
           walletConnectWallet,
         ],
       },

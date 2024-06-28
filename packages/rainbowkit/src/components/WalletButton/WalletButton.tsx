@@ -73,7 +73,10 @@ export const WalletButton = ({ wallet }: { wallet?: string }) => {
                       <SpinnerIcon />
                     ) : (
                       <AsyncImage
-                        background={connector?.iconBackground}
+                        // Here the background is overrided to white
+                        // We disable it only for test/debug
+                        // should not published
+                        // background={connector?.iconBackground}
                         borderRadius="6"
                         height="28"
                         src={connector?.iconUrl}

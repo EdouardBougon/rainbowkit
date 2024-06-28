@@ -1,5 +1,7 @@
 /** @type {import('next').NextConfig} */
 module.exports = {
+  // Target must be serverless
+  // output: 'export',
   i18n: {
     defaultLocale: 'en-US',
     locales: [

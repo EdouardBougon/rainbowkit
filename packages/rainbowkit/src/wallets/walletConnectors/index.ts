@@ -30,6 +30,7 @@ import { kresusWallet } from './kresusWallet/kresusWallet';
 import { ledgerWallet } from './ledgerWallet/ledgerWallet';
 import { magicEdenWallet } from './magicEdenWallet/magicEdenWallet';
 import { metaMaskWallet } from './metaMaskWallet/metaMaskWallet';
+import { metaMaskWalletOld } from './metaMaskWalletOld/metaMaskWalletOld';
 import { mewWallet } from './mewWallet/mewWallet';
 import { nestWallet } from './nestWallet/nestWallet';
 import { oktoWallet } from './oktoWallet/oktoWallet';
@@ -93,6 +94,7 @@ export {
   ledgerWallet,
   magicEdenWallet,
   metaMaskWallet,
+  metaMaskWalletOld,
   mewWallet,
   nestWallet,
   oktoWallet,
