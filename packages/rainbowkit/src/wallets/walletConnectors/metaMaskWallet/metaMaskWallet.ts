@@ -116,6 +116,11 @@ export const metaMaskWallet: MetamaskWallet = (
             name: dappParams.appName,
             iconUrl: dappParams.appIcon,
           },
+          ...(isMobile()
+            ? {
+                openDeeplink: () => {},
+              }
+            : {}),
           modals: {
             install: () => {
               return {
