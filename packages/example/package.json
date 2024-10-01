@@ -19,6 +19,7 @@
     "wagmi": "^2.12.19"
   },
   "scripts": {
+    "start": "next start",
     "dev": "next dev",
     "build": "next build",
     "typecheck": "pnpm tsc --noEmit"

@@ -1,0 +1,21 @@
+services:
+  - type: web
+    name: rainbowkitDemo
+    runtime: node
+    plan: free
+    buildCommand: pnpm i
+    startCommand: pnpm run dev:example
+    autoDeploy: true
+    envVars:
+      - key: RAINBOW_PROVIDER_API_KEY
+        value: test
+      - key: NEXT_PUBLIC_ALCHEMY_ID
+        value: test
+      - key: NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID
+        sync: false
+      - key: NEXTAUTH_SECRET
+        value: test
+      - key: NEXTAUTH_URL
+        value: http://localhost:3000
+      - key: NEXT_PUBLIC_ENABLE_TESTNETS
+        value: "false"
