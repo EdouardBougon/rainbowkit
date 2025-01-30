@@ -1,5 +1,11 @@
 # @rainbow-me/rainbowkit
 
+## 2.2.4
+
+### Patch Changes
+
+- f89eb92: Improved support for the Binance Wallet dApp browser
+
 ## 2.2.3
 
 ### Patch Changes
