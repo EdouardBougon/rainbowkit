@@ -1,5 +1,12 @@
 # generated-test-app
 
+## 0.1.103
+
+### Patch Changes
+
+- Updated dependencies [f89eb92]
+  - @rainbow-me/rainbowkit@2.2.4
+
 ## 0.1.102
 
 ### Patch Changes
